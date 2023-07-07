@@ -4,6 +4,11 @@
 
 html{
 	 scroll-behavior: smooth;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 z-index: 1;
 }
 body{
 	margin: 0;
@@ -19,7 +24,11 @@ header{
 	font-family: 'Lato', sans-serif;
 	color: aliceblue;
 	/* padding: 10px; */
-	
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 header .logo{
